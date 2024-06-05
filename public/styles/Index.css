@@ -1,0 +1,131 @@
+/* Styles the hero (carousel) section  */
+#hero {
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Styles the box overlaying the carousel */
+#hero-content {
+    width: 700px;
+    background-color: rgba(231, 124, 122, 0.74); /* Semi-transparent background color */
+    box-shadow: 2px, 4px, 8px, rgba(68, 67, 67); /* Box shadow for depth */
+    border-radius: 8px;/* Rounded corners */
+    text-align: center;
+    padding: 50px 0;
+    margin: -0 auto ;
+    position: relative;
+    top: -450px; /* Places the content above the carousel */
+}
+
+/* Class for styling the carousel images */
+d-block {
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 500px;
+}
+
+/* Carousel image styling */
+.carousel-image{
+  height:800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+/* Carousel image styling */
+carousel-item {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+/* Styles the box text overlaying the carousel */
+#hero-content h1{
+color: white;
+text-transform: uppercase;
+font-size: 40px;
+font-family: "Cinzel", sans-serif;
+margin: 150;
+}
+
+/* Styles the box link overlaying the carousel */
+#hero-content a{
+  text-decoration: none;
+  color: white;
+  font-family: 24p;
+  background-color: rgba(92, 63, 63, 0.479);
+  padding: 8px;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 2px, 4px, 8px, rgba(68, 67, 67);
+}
+
+/* Styles the box link hover overlaying the carousel */
+#hero-content a:hover{
+    color: rgb(128, 97, 97);
+    background-color: #f7cbcb
+}
+
+/* Styles the products and its display*/
+#popular {
+  display: flex;
+  width: 90%; 
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center
+}
+
+/* Styles the products and its display*/
+#Popular{
+padding: 24px;
+}
+
+/* Styles the 'popular' h2 text */
+#PopularProds h2{
+text-transform: uppercase;
+text-align: center;
+font-size: 40px;
+color: rgb(138, 103, 99);
+margin: 24px;
+}
+
+/*  Styles the product list */
+.destinations {
+  margin: 0 20px;
+  list-style: none;
+}
+
+/*  Styles the product list links */
+.destinations, a{
+  text-align: center;
+  font-size: 24px 0;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(159, 77, 68);
+}
+
+/*  Styles the product list images */
+.destinations img{
+  size: 500px;
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px, 8px, 8px, rgba(68, 67, 67);
+  border-radius: 8px;
+  object-fit: cover;
+  
+}
+/*  Styles the product list text and makes it strong and changes its colour */
+.destinations strong{
+  color: #fff;
+}
+
+
+
+
+

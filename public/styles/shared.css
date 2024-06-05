@@ -1,0 +1,137 @@
+/* Styling and html for nav bar and sections 1 and 2 sourced from a Udemy course: */
+/* "100 Days Of Code - 2024 Web Development Bootcamp" */
+body {
+    /* Centers text */
+    text-align: center;
+    background-color: #f7cbcb;
+    font-family: "Cinzel", sans-serif;
+    margin: 0;
+} */
+
+/* Styles the navbar */
+header{
+    background-color: #F6E2DF;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    z-index:10;
+    max-width:100%;
+}
+
+
+/* Set styles for the collapsed navbar links */
+.navbar-collapse .nav-link{
+    justify-content: left;
+}
+
+/* Styles the logo */
+#logo a{
+    padding: 8px;
+    font-family: "Cinzel", sans-serif;
+    color: #fdf9f8;
+    font-size: 50px;
+    text-decoration: none; /* takes away link underline */
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+/* .navbar-collapse .navbar-nav .nav-item .nav-link {
+justify-content: left;
+} */
+
+/* Set styles for the navbar links */
+.navbar-nav .nav-link {
+    color: #ffffff;
+    padding-left: 100%; /* Adds left padding */
+    display: flex;/* Use flexbox */
+    font-size: large;
+    font-weight: 600; /* Sets font thickness */
+}
+
+.navbar-collapse .nav-item {
+    color: #171111;
+}
+
+/* styles button */
+btn-outline-success {
+    color: #e56f69;
+}
+
+/* Sets styles for the header list - links */
+header ul {
+    display: flex;
+}
+header li{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Sets styles for the header links when hovered on */
+header a:hover {
+    color: rgb(182, 100, 99);
+    background-color: #d6b3b070;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* Sets styles for the header list items */
+header li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(65, 32, 31);
+    font-size: 20px;
+    font-weight: 450;
+}
+
+/* Set styles for the footer section */
+footer {
+    background-color: #f7f2f1;
+}
+
+/* Set styles for the footer list */
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 18px;
+    padding-top: 15px;
+
+}
+/* Styles for footer list */
+footer li {
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px;
+}
+/* Set styles for the footer image */
+footer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+}
+
+/* Set styles for the cart item texts */
+#Cart-items {
+    display: inline-block; /* Display spans inline */
+    margin-right: 10px; /* Add margin between spans */
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+/* Sets the styles for button in cart class */
+.btn-primary {
+    background-color: #e56f69;
+    border: #451714;
+}
+
+/* Sets the styles for when this button is hovered on in cart class */
+.btn-primary:hover {
+background-color: rgb(2, 103, 21);
+}

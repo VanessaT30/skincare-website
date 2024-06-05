@@ -1,0 +1,19 @@
+/* A lot of the styling was done in the html page and retrieved from:
+https://mdbootstrap.com/docs/standard/extended/product-cards/  */
+/* styles the background colour around the product card */
+section {
+    background-color: #ffddddc3;
+}
+
+/* Styles the title */
+.title {
+    font-size: 40px; 
+    font-weight: 800; 
+    color: #8b3b3b;
+}
+
+/* styles the card itself rouding the corders and giving it a shadow or depth */
+.card {
+    border-radius: 15px; 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}

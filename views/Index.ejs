@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Glow Skin</title>
+  <!-- Importing bootrap 5 cdn for css and javascript -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Importing fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Oswald&family=Satisfy&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
+  <!-- Importing Stylesheets -->
+  <link rel="stylesheet" href="styles/shared.css">
+  <link rel="stylesheet" href="styles/Index.css">
+
+</head>
+
+<body>
+  <header>
+    <!-- Nav bar sourced from bootstrap and modified: https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f7cbcb;">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <div id="logo">
+          <a class="navbar-brand fw-bold" href="" disa>Glow Skin</a>
+        </div>
+
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar Items -->
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <!-- Home Link -->
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Home</a>
+            </li>
+            <!-- Login Link -->
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Login</a>
+            </li>
+            <!-- Register Link -->
+            <li class="nav-item">
+              <a class="nav-link" href="/register">Register</a>
+            </li>
+            <!-- Products Link, pointing to the same page -->
+            <li class="nav-item">
+              <a class="nav-link" href="#anchor" role="button">Products</a>
+            </li>
+            <!-- Cart Link -->
+            <li class="nav-item">
+              <a class="nav-link" href="/cart">Basket</a>
+            </li>
+          </ul>
+          <!-- Search button -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Section 1 of the body -->
+    <!-- Hero Section -->
+    <section id="hero">
+
+      <!-- Carousel Container -->
+      <!-- Carousel sourced from bootstrap: https://getbootstrap.com/docs/5.0/components/carousel/ -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel Inner -->
+        <div class="carousel-inner" id="carousel-inner">
+          <!-- Carousel picture 1 -->
+          <div class="carousel-item carousel-image bg-img-1 active">
+            <img src="images/products/cover11.jpg" class="d-block w-100" alt="...">
+          </div>
+          <!-- Carousel picture 2 -->
+          <div class="carousel-item carousel-image bg-img-2">
+            <img src="images/products/cover7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <!-- Carousel picture 3 -->
+          <div class="carousel-item carousel-image bg-img-3">
+            <img src="images/products/cover12.jpg" class="d-block w-100" alt="...">
+          </div>
+          <!-- End of Carousel Inner -->
+        </div>
+        <!-- End of Carousel Container -->
+      </div>
+      <!-- Box text overlaying carousel -->
+      <div id="hero-content">
+        <h1>Skin like you've never seen</h1>
+        <!-- Button to Explore Products -->
+        <a href="#anchor">Explore Our Products</a>
+      </div>
+    </section>
+
+    <!-- Section 2 of the body -->
+    <section id="PopularProds">
+      <!-- Section Title -->
+      <h2 id="anchor">Popular</h2>
+      <!-- List of Popular Products -->
+      <ul id="popular">
+        <!-- The 9 prodcuts listed with their image and the link to their individual page info-->
+        <li class="destinations">
+          <a href="/products1?rec=1"><img src="images/products/prod1.jpg" alt=""></a>
+          <a href="/products1?rec=1">Watermelon Foaming Cleanser</a>
+        </li>
+        <li class="destinations">
+          <a href="/products1?rec=2"><img src="images/products/prod2.jpg" alt=""></a>
+          <a href="/products1?rec=2">Australian Pink Clay Mask</a>
+        </li>
+        <li class="destinations">
+          <a href="/products1?rec=3"><img src="images/products/prod3.jpg" alt=""></a>
+          <a href="/products1?rec=3">Pink Cloud Eye Cream</a>
+        </li>
+        <li class="destinations">
+          <a href="/products1?rec=4"><img src="images/products/prod4.jpg" alt=""></a>
+          <a href="/products1?rec=4">Matcha Moisturiser Set</a>
+        </li>
+        <li class="destinations">
+          <a href="/products1?rec=5"><img src="images/products/prod5.jpg" alt=""></a>
+          <a href="/products1?rec=5">Foam Body Wash</a>
+        </li>
+      </ul>
+      <!-- Next line of popular products list -->
+      <ul id="popular">
+        <li class="destinations">
+          <a href="/products1?rec=7"><img src="images/products/prod7.jpg" alt=""></a>
+          <a href="/products1?rec=7">Acne Prone Skincare Set</a>
+        </li>
+
+        <li class="destinations">
+          <a href="/products1?rec=8"><img src="images/products/prod8.jpg" alt=""></a>
+          <a href="/products1?rec=8">Hair Mask</a>
+        </li>
+        <li class="destinations">
+          <a href="/products1?rec=6"><img src="images/products/prod6.jpg" alt=""></a>
+          <a href="/products1?rec=6">Sensitive Body Wash</a>
+        </li>
+        <li class="destinations">
+          <a href="/products1?rec=9"><img src="images/products/prod9.jpg" alt=""></a>
+          <a href="/products1?rec=9">Gensing Moisturiser</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer section containing social media icons; the icons and the links -->
+  <footer>
+    <ul>
+      <li>
+        <!-- Link and icon to Instagram -->
+        <a href="https://www.instagram.com/">
+          <img src="images/icons/Instagramp2.jpg" alt="">
+        </a>
+      </li>
+      <li>
+        <!-- Link and icon to Faceboook -->
+        <a href="https://www.facebook.com/">
+          <img src="images/icons/Facebookp.jpg" alt="">
+        </a>
+      </li>
+      <li>
+        <!-- Link and icon to TikTok -->
+        <a href="https://www.tiktok.com/login">
+          <img src="images/icons/Tiktokp.jpg" alt="">
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
+
+<script>
+  // Majority of code sourced from: 
+  // https://stackoverflow.com/questions/55214255/get-all-childrens-with-document-queryselector
+  // With reference to: https://stackoverflow.com/questions/64900211/which-javascript-i-need-for-a-carousel-with-random-photos-from-specific-folder
+  
+  // Allows the html code to execute first and then this will be triggered.
+  document.addEventListener('DOMContentLoaded', function() {
+
+    // This line along with the for each loop was sourced from stackoverflow:
+    // https://stackoverflow.com/questions/55214255/get-all-childrens-with-document-queryselector
+    // Selects all the carousel items (images).
+    var items = document.querySelectorAll('#carousel-inner .carousel-item');
+    
+    // Code line sourced from https://stackoverflow.com/questions/76325657/how-to-display-pictures-random-from-a-array-of-pictures-on-a-website
+    // Generate a random image index
+    var random = Math.floor(Math.random() * items.length);
+    
+    // Sourced from above reference stack code
+    // Remove the active class from all items
+    // For each item in the carousel items selected above, the function is called.
+    items.forEach((item) => { 
+      //Line directly sourced from same
+      //  removes the 'active' class from the current
+        item.classList.remove('active');
+    });
+    
+    // Then added active class back to the randomly chosen item from math.random
+    items[random].classList.add('active');
+});
+</script>
+

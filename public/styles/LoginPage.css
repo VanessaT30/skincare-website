@@ -1,0 +1,104 @@
+/*  Some styles were retrieved from: https://www.youtube.com/watch?v=hlwlM4a5rxg */
+/* Style all of the body section */
+body {
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Styles the register link */
+.register a{
+  align-items: center;
+  text-decoration: none;
+  color: rgb(19, 18, 18);
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30px;
+}
+
+/* Styles the register link when hovering */
+.register a:hover {
+  color: #534b64;
+}
+
+/* Styles the main section */
+main {
+  max-width: 20rem;
+
+}
+
+/* Styles the 'Login' H1 title */
+h1 {
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* Styles the input area*/
+input:focus,
+textarea:focus {
+background-color: #f3d8d5;
+}
+
+/* Styles the center class area*/
+.center {
+  background-color: transparent;
+}
+
+/* Styles the input area shape*/
+.center .inputbox input{
+  margin-bottom: 0;
+  border-radius: 100px;
+}
+
+/* Styles the form area*/
+form {
+  justify-content: center;
+  display: inline-block;
+  text-align: left;
+  padding: 70px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+
+/* Styles the labels i.e. username or password */
+label, input {
+  display: block;
+  margin: 20px 0;
+  display: block;
+  width: 100%;
+}
+
+/* Styles the button*/
+.center button {
+  margin: 10px 0 0 0;
+  color: #9c989b;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #f8f4ed;
+  border: 2px solid ;
+  box-sizing: border-box;
+  width: 200px;
+  height:30px
+}
+
+label username{
+  border-radius: 10px;
+}
+
+/* Styles the button when hovering */
+button:hover {
+  background-color: #eed8d8;
+}
